@@ -1,0 +1,39 @@
+.bg {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg::before {
+      content: "";
+      background-image: url("s3-bucket-hosting.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      line-height: 0.3;
+      opacity: 0.40;
+}
+
+header {
+  position: relative;
+  display:inline;
+  color: #964B00;  
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 15vw;
+}
+h2 {
+  font-size: 5vh;
+}
+p {
+  font-size: 5vmin;
+}
