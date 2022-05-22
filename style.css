@@ -28,6 +28,10 @@ header {
   
 }
 
+p {
+  font-family: arial;
+}
+
 h1 {
   font-size: 15vw;
 }
@@ -35,5 +39,5 @@ h2 {
   font-size: 5vh;
 }
 p {
-  font-size: 5vmin;
+  font-size: 3vmin;
 }
